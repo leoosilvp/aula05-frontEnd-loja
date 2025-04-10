@@ -122,3 +122,25 @@ footer{
     color: #ffffff;
     text-decoration: none;
 }
+
+/* RESPONSA */
+@media (max-width: 768px) {
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    header nav ul li{
+        margin: 0;
+    }
+
+    #conteudo{
+        grid-template-columns: 1fr;
+    }
+
+    aside{
+        display: none;
+    }
+}
